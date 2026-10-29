@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Mohammad Nehzat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="nav container"><a class="logo" href="index.html"><span class="logo-mark">N.</span><span>NEHZAT<span class="logo-dot">.</span></span></a><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+            <div class="nav-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html">Projects</a><a href="services.html">Services</a><a class="nav-contact active" href="contact.html">Let's talk <span>↗</span></a></div>
+        </nav>
+    </header>
+    <main class="inner-page container">
+        <section class="page-intro reveal"><span class="eyebrow">LET'S CONNECT</span>
+            <h1>Have a good idea?<br><span class="gradient-text">Let's talk.</span></h1>
+            <p>Tell me a little about what you're building. I'll get back to you as soon as I can.</p>
+        </section>
+        <section class="contact-layout">
+            <div class="contact-info reveal">
+                <div class="contact-highlight"><span class="status-dot"></span> OPEN TO PROJECT INQUIRIES</div>
+                <h2>Let's turn your idea<br>into something real.</h2>
+                <p>For website projects, collaborations, or questions, use the form or reach out through the links below.</p>
+                <div class="contact-link"><span class="contact-icon">@</span>
+                    <div><small>EMAIL</small><a href="mailto:your.email@example.com">your.email@example.com ↗</a></div>
+                </div>
+                <div class="contact-link"><span class="contact-icon">in</span>
+                    <div><small>LINKEDIN</small><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">Connect on LinkedIn ↗</a></div>
+                </div>
+                <div class="contact-link"><span class="contact-icon">⌘</span>
+                    <div><small>GITHUB</small><a href="https://github.com/mohjumanahzat-crypto" target="_blank" rel="noreferrer">View GitHub profile ↗</a></div>
+                </div>
+            </div>
+            <form class="contact-form reveal" id="contact-form">
+                <div class="form-top"><span>PROJECT INQUIRY</span><span>✳</span></div><label for="name">Your name</label><input id="name" name="name" placeholder="Jane Smith" required><label for="email">Email address</label><input id="email" name="email" type="email" placeholder="jane@example.com" required><label for="service">What do you need?</label><select id="service" name="service" required>
+                    <option value="">Choose a service</option>
+                    <option>Website design</option>
+                    <option>Frontend development</option>
+                    <option>Website functionality</option>
+                    <option>Something else</option>
+                </select><label for="message">Tell me about your project</label><textarea id="message" name="message" rows="4" placeholder="A few details about your idea..." required></textarea><button class="btn btn-primary form-submit" type="submit">Prepare email <span>↗</span></button>
+                <p class="form-note">This form opens your email app; it does not send data to a server.</p>
+                <p class="form-status" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+    <footer class="footer container"><a class="logo" href="index.html"><span class="logo-mark">N.</span><span>NEHZAT<span class="logo-dot">.</span></span></a>
+        <p>Designed with intent. Built with care.</p><span>© <span data-year></span> Mohammad Nehzat</span>
+    </footer>
+</body>
+
+</html>
